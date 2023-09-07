@@ -1,0 +1,497 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 16px;
+}
+
+.container-header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 174px;
+    /*flex-direction: column;*/
+    padding: 2rem;
+
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-bottom {
+    display: flex;
+}
+
+
+.logo {
+    width: 9rem;
+    height: 2.2rem;
+}
+.hide-elements-navbar{
+    display: flex;
+}
+.btn-purple {
+    background: #8B48BF;
+    width: 134px;
+    height: 44px;
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+    text-align: center;
+    /*gap: 0.8rem;*/
+    box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
+    color: rgba(255, 255, 255, 1);
+    font-size: 13.18px;
+    font-weight: 500;
+}
+
+
+.btn-purple:hover {
+    background-color: #8B48BFB2;
+    cursor: pointer;
+}
+.icon-menu {
+    display: none;
+}
+/* .container-nav { */
+
+
+.contact-footer {
+    background: rgba(139, 72, 191, 1);
+    width: 4rem;
+    height: 2.7rem;
+    padding: 0.8rem;
+    border-radius: 3.1rem;
+    gap: 0.8rem;
+    box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
+    color: rgba(255, 255, 255, 1);
+    font-size: 0.9rem;
+}
+
+
+/* .header-nav { */
+
+.container-nav {
+    display: flex;
+    gap: 1.75rem;
+    padding-right: 30px;
+}
+
+.container-nav li {
+    list-style: none;
+}
+
+.container-nav a {
+    text-decoration: none; 
+    color: #242E52;
+    font-size: 13px;
+}
+
+.container-nav a:hover {
+    color: rgba(36, 46, 82, 0.6);
+}
+
+.container-main {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5.4rem auto;
+    flex-wrap: nowrap;
+    width: 85%;
+}
+
+.img-home {
+    width: auto;
+}
+
+.data-home {
+    height: 399px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.data-home h1 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 57.3px;
+    text-align: right;
+    letter-spacing: -2px;
+}
+
+.data-home p {
+    font-size: 16.5px;
+    font-weight: 500;
+    line-height: 26.01px;
+    text-align: right;
+}
+
+.section-purple, .section-purple2 {
+    background-color: #8B48BF;
+    display: flex;
+    color: #FFFFFF;
+    gap: 6rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.section-purple {
+    height: 168px;
+}
+
+.section-purple2 {
+    height: 224px;
+}
+
+.section-purple h2 {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 41.26px;
+    width: 450px;
+}
+
+.section-purple2 h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47.84px;
+    letter-spacing: -0.5px;
+    width: 450px;
+}
+
+.section-purple p {
+    font-weight: 500;
+    width: 450px;
+    line-height: 24.18px;
+}
+
+
+.container-number {
+    background-color: #FAFAFA;
+    padding: 3rem 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.container-number article {
+    width: 530px;
+}
+
+.container-number article div {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: .5rem;
+}
+
+.container-number article div button {
+    border-radius: 30px;
+    height: 43px;
+    padding: 10px, 25px, 10px, 25px;
+    border: none;
+    background-color: #8B48BF;
+    color: #FFFFFF;
+    font-weight: 700;
+    line-height: 23.38px;
+    width: 69px;
+}
+
+.container-number article div h4 {
+    font-weight: 700;
+    line-height: 23.38px;
+    letter-spacing: -1px;
+    color: #323851;
+}
+
+.container-number article p {
+    color: #B3B2B7;
+    font-weight: 500;
+    line-height: 25.52px;
+    margin: 0 0 0 5.8rem;
+}
+/*
+section{
+    font-family: Be Vietnam;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+*/
+button{
+    cursor: pointer;
+}
+.section-jugadores{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+}
+.section-jugadores h2{
+    color: #242E53;
+    text-align: center;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 39.214px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 156.6%; /* 61.41px */
+    letter-spacing: -0.392px;
+}
+.content-jugadores{
+    display: flex;
+    align-items: center;
+}
+.jugador{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(250, 250, 250, 1);
+    height: 232px;
+    margin: 50px 0 30px;
+}
+.jugador h6{
+    color: #3F4868;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 16.071px;
+    font-style: normal;
+    font-weight: 700;
+    margin: 25px 0 0
+}
+.jugador p{
+    color: #B9B9C1;
+    text-align: center;
+    font-family: Be Vietnam;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 156.6%; /* 25.056px */
+}
+.section-jugadores button{
+    border-radius: 50px;
+    background: rgba(139, 72, 191, 0.70);
+    border: none;
+    display: flex;
+    width: 134px;
+    height: 44px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    color: #fff;
+}
+.section-bestTeam{
+    background-color: rgba(139, 72, 191, 0.70);
+}
+.section-bestTeam div{
+    width: 100%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.section-bestTeam h2{
+    width: 370px;
+    font-size: 40px;
+}
+.section-bestTeam button{
+    border-radius: 50px;
+    background: #FFF;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    width: 134px;
+    height: 44px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: rgba(139, 72, 191, 0.70);
+    font-weight: 500;
+}
+footer{
+    background-color: #1E1E26;
+}
+footer p{
+    color: #fff;
+}
+footer li{
+    list-style: none;
+}
+footer li a{
+    color: #fff;
+    text-decoration: none;
+}
+.container-footer{
+    padding-top: 50px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.container-logos{
+    display: flex;
+    flex-direction: column; 
+}
+.container-ul{
+    display: flex;
+    line-height: 1.8;
+}
+.container-newsletter input{
+    border-radius: 50px;
+    border: none;
+    background: #FFF;
+    padding: 10px;
+}
+.container-newsletter button{
+    border-radius: 50px;
+    background: #8B48BF;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    width: 63px;
+}
+.container-derechos{
+    display: flex;
+    justify-content: end;
+}
+.container-derechos p{
+    color: #8C8C94;
+    font-size: 12.5px;
+}
+@media screen and (max-width: 767px) {
+    .content-jugadores{
+        flex-direction: column;
+    }
+    .section-jugadores > div > div:nth-child(1),
+    .section-jugadores > div > div:nth-child(3){
+        display: none;
+    }
+    .section-bestTeam{
+        background-color: rgba(60, 221, 243, 1);
+        padding: 40px 50px;
+        text-align: center;
+    }
+    .section-bestTeam button{
+        background-color: rgba(35, 44, 80, 1);
+        color: #FFF;
+    }
+    .container-footer{
+        flex-direction: column-reverse;
+    }
+    .container-ul ul{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    .container-nav {
+        gap: .75rem;
+    }
+
+    .container-main {
+        flex-wrap: wrap;
+        gap: 5rem;
+    }
+
+    .img-home {
+        width: 75%;
+    }
+
+    .section-purple {
+        height: auto;
+        padding: 4rem 3rem 4rem 1rem;
+        gap: 4rem;
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+    *{
+    margin: 0;
+   }
+    .container-header {
+        height: 140px;
+    }
+
+    .icon-menu {
+        display: block;
+    }
+
+    .container-main {
+        margin: 2rem 1rem;
+        width: 88%;
+    }
+
+    .img-home {
+        width: 98%;
+    }
+
+    .data-home {
+        height: auto;
+        gap: 1.5rem;
+    }
+
+
+    .btn-purple {
+        display:none
+    }
+
+    .hide-elements-navbar ul{
+        display: none;
+    }
+
+    .section-purple {
+        background-color: #3CDDF3;
+        margin-bottom: 0;
+    }
+
+    .container-numbered {
+        background-color: #FFFFFF;
+        padding: 3rem 0rem 3rem 1.5rem;
+    }
+    
+    .container-numbered article div {
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+        background-color: #8B48BF4D;
+        margin-bottom: 1.5rem;
+    }
+
+    .container-numbered article p {
+        /* font-weight: 500;
+        line-height: 25.52px; */
+        margin: 0 1rem;
+
+  }
+
+}
+/*
+.container-h1 p {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 3.1rem;
+}
+*/
